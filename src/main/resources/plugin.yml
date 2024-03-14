@@ -9,6 +9,12 @@ permissions:
   worldborder.admin:
     description: "WorldBorder插件管理员权限"
     default: op
+  worldborder.admin.create:
+    description: "WorldBorder插件创建边界权限"
+    default: op
+  worldborder.admin.reload:
+    description: "WorldBorder插件重载权限"
+    default: op
   worldborder.leave.*:
     description: "WorldBorder离开边界权限"
     default: false
